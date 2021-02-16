@@ -8,5 +8,6 @@ Converts multi fast alignment into phylip alignment without restriction on isola
     $ sh mfa-2-phylip/mfa-2-phylip.sh [mfa.aln] [PREFIX]
 
 ##### arguments: 
-``mfa.aln`` multi fasta alignment 
-``PREFIXb`` Prefix for outfile
+``mfa.aln`` multi fasta alignment  
+``PREFIX`` Prefix for outfile  
+
