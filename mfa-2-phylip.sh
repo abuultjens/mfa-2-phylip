@@ -41,6 +41,7 @@ paste ${RAND}_fofn.txt ${RAND}.seq > ${RAND}_tmp_seq.txt
 
 cat ${RAND}_tmp_head.txt ${RAND}_tmp_seq.txt > ${PREFIX}.phylip
 
-
+# rm tmp files
+rm ${RAND}_*
 
 		
